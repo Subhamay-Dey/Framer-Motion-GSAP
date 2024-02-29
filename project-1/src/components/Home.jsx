@@ -4,7 +4,14 @@ const Home = () => {
 
     const [nice, setNice] = React.useState('off');
 
-
+    const toggleClick = () => {
+        if(nice === "on"){
+            setNice= "off";
+        }   
+        else{
+            setNice="on";
+        }
+    }
 
   return (
     <>
