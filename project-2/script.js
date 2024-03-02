@@ -28,7 +28,7 @@ tl.from("h5",{
 })
 
 tl.to("h5",{
-    y: 30,
+    y: -30,
     repeat: -1,
     duration:0.6,
     yoyo: true
