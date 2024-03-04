@@ -30,6 +30,7 @@ nav{
     font-size: 1.5vw;
     height: 6vh;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .lft-nav h1{
