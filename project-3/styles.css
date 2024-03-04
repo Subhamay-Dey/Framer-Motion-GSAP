@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html,body{
@@ -18,8 +19,8 @@ html,body{
 nav{
     width: 100%;
     height: 15vh;
-    color: white;
-    background-color: black;
+    position: fixed;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +35,7 @@ nav{
 }
 
 .lft-nav h1{
-    transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition:cubic-bezier(0.19, 1, 0.22, 1)0.4s;
 }
 
 .lft-nav:hover #logo{
@@ -42,8 +43,7 @@ nav{
 }
 
 .rght-nav{
-    font-size: 1.5vw;
-    height: 6.5vh;
+    height: 3vh;
     overflow: hidden;
     cursor: pointer;
 }
@@ -53,7 +53,34 @@ nav{
 }
 
 .rght-nav:hover #nav-contact{
-    margin-top: -5vh;
+    margin-top: -3vh;
+}
+
+.part-1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.content-part-1{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+
+.rotate-div{
+    width: 200%;
+    height: 200vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-div{
+    width: calc(100%/5);
+    height: 100%;
+    background: aliceblue;
 }
 
 
