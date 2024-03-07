@@ -13,7 +13,7 @@ tl.from("#main h1",{
     // duration: 1.6,
     // delay: 1,
     opacity: 0,
-    stagger:0.5,
+    stagger:0.6,
 
 })
 
