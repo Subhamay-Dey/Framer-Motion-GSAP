@@ -11,7 +11,7 @@ tl.from("#nav img, #nav h3, #nav h4, #nav button",{
 tl.from("#main h1",{
     y: 400,
     // duration: 1.6,
-    // delay: 1,
+    delay: 0.4,
     opacity: 0,
     stagger:0.6,
 
