@@ -19,7 +19,7 @@ function Animation({content}: {content: string}) {
     const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 0]);
 
   return (
-    <div style={{height: "100vh", display: 'flex', justifyContent: "center", alignItems: "center", textAlign: "center", lineHeight: "0.9"}}>
+    <div style={{height: "100vh", display: 'flex', justifyContent: "center", alignItems: "center", textAlign: "center", lineHeight: "1"}}>
         <motion.p 
             className={styles.paragraph} 
             ref={element}

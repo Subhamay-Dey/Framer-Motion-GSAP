@@ -1,0 +1,16 @@
+.words{
+    font-size: 50px;
+    max-width: 1200px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    .word{
+        margin-right: 8px;
+        margin-top: 8px;
+        position: relative;
+        .shadow{
+            position: absolute;
+            opacity: 0.1;
+        }
+    }
+};
