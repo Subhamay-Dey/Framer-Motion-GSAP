@@ -5,11 +5,11 @@ const content = " It is a long established fact that a reader will be distracted
 
 function Paragraph() {
   return (
-    <div>
+    <>
         <div style={{height: "100vh"}}></div>
         <Animation content={content}/>
         <div style={{height: "100vh"}}></div>
-    </div>
+    </>
   )
 }
 
