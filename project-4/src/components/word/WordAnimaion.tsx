@@ -27,8 +27,6 @@ export function WordAnimaion({ content }: { content: string }) {
         {words.map((word, index) => {
           const start = index / words.length;
           const end = start + 1 / words.length;
-          // console.log([start, end]);
-
           return (
             <Wordd key={index} range={[start, end]} progress={scrollYProgress}>
               {word}
@@ -40,11 +38,7 @@ export function WordAnimaion({ content }: { content: string }) {
   );
 }
 
-const Wordd = ({
-  children,
-  range,
-  progress,
-}: {
+const Wordd = ({children,range,progress,}: {
   children: React.ReactNode;
   range: number[];
   progress: any;
