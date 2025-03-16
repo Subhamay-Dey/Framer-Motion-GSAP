@@ -1,17 +1,17 @@
 import React from 'react'
-import { WordAnimaion } from './WordAnimaion'
+import CharacterAnimation from './CharacterAnimation'
 
-
-function Worddd() {
+function Character() {
 
     const content = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout that a reader will be distracted by the readable content."
 
   return (
-    <div>
+    <>
         <div style={{height: "100vh"}}></div>
-        <WordAnimaion content={content}/>
-    </div>
+        <CharacterAnimation content={content}/>
+        <div style={{height: "100vh"}}></div>
+    </>
   )
 }
 
-export default Worddd
+export default Character

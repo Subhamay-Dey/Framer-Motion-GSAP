@@ -8,7 +8,6 @@ function Paragraph() {
     <>
         <div style={{height: "100vh"}}></div>
         <Animation content={content}/>
-        <div style={{height: "100vh"}}></div>
     </>
   )
 }

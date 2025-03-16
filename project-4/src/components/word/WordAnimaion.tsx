@@ -10,6 +10,7 @@ export function WordAnimaion({ content }: { content: string }) {
     target: element,
     offset: ["start 0.9", "start 0.25"],
   });
+
   const words = content.split(" ");
 
   return (
@@ -31,18 +32,15 @@ export function WordAnimaion({ content }: { content: string }) {
             <Wordd key={index} range={[start, end]} progress={scrollYProgress}>
               {word}
             </Wordd>
-          );
+          )
         })}
       </p>
     </div>
   );
 }
 
-const Wordd = ({children,range,progress,}: {
-  children: React.ReactNode;
-  range: number[];
-  progress: any;
-}) => {
+const Wordd = ({children,range,progress}: {children: React.ReactNode, range: number[];progress: any}) => {
+
   const opacity = useTransform(progress, range, [0, 1]);
 
   return (
