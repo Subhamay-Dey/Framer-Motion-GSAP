@@ -36,7 +36,7 @@ export function WordAnimaion({ content }: { content: string }) {
         })}
       </p>
     </div>
-  );
+  )
 }
 
 const Wordd = ({children,range,progress}: {children: React.ReactNode, range: number[];progress: any}) => {
