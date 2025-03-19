@@ -11,7 +11,7 @@ export function WordAnimaion({ content }: { content: string }) {
     offset: ["start 0.9", "start 0.25"],
   });
 
-  const words = content.split(" ");
+  const words = content.split(" ")
 
   return (
     <div
